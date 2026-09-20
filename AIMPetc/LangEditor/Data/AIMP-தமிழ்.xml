@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Localization Info -->
+    <string name="langInfo_Name">தமிழ்</string>
+    <string name="langInfo_Author">அனிஷ் பிரபு தி</string>
+    <string name="langInfo_LangId">1097</string>
+
+    <!-- app -->
+    <string name="app_label">ஆஇஊஇ</string>
+    <string name="app_name">ஆஇஊஇ</string>
+
+    <!-- bookmarks -->
+    <string name="bookmarks_contextmenu_clear">அழி</string>
+    <string name="bookmarks_contextmenu_delete">நீக்கு</string>
+    <string name="bookmarks_contextmenu_play">Play</string>
+    <string name="bookmarks_contextmenu_rename">Rename</string>
+    <string name="bookmarks_contextmenu_send_to_playlist">Send to playlist…</string>
+    <string name="bookmarks_dialog_subtitle">New name:</string>
+    <string name="bookmarks_no_track_is_playing">No track is playing</string>
+    <string name="bookmarks_subtitle">Playlist bookmarks managing</string>
+    <string name="bookmarks_title">Bookmarks manager</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="DefaultUserAgent">BASS/2.4</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+
+    <!-- crash -->
+    <string name="crash_toast_text">AIMP: A critical error has occurred. Please send the following bug-report to our e-mail.</string>
+
+    <!-- documentTree -->
+    <string name="documentTree_notes">The SD card is write protected, to give AIMP access rights, in the next dialog, please go to the root of the SD-card and click on the button at the bottom, \'Select\'!</string>
+    <string name="documentTree_title">Permissions Warning</string>
+
+    <!-- dspmanager -->
+    <string name="dspmanager_balance">Balance</string>
+    <string name="dspmanager_description">Control the basic sound effects</string>
+    <string name="dspmanager_menu_platform_fx">System effects settings…</string>
+    <string name="dspmanager_menu_reset_defaults">Reset to Defaults</string>
+    <string name="dspmanager_speed">Playback Speed</string>
+    <string name="dspmanager_tab_basic">Basic</string>
+    <string name="dspmanager_tab_equalizer">Equalizer</string>
+    <string name="dspmanager_title">Sound Effects</string>
+
+    <!-- equalizer -->
+    <string name="equalizer_alertdialog_message">Enter name of new preset:</string>
+    <string name="equalizer_alertdialog_restore_presets">The operation will remove all custom presets. Proceed?</string>
+    <string name="equalizer_alertdialog_title">New preset</string>
+    <string name="equalizer_custom_preset_name">Custom preset</string>
+    <string name="equalizer_deletedialog_message">Remove current preset?</string>
+    <string name="equalizer_deletedialog_title">Removing</string>
+    <string name="equalizer_menu_create_preset">Create preset…</string>
+    <string name="equalizer_menu_delete_current_preset">Remove current preset</string>
+    <string name="equalizer_menu_load_preset">Load preset…</string>
+    <string name="equalizer_menu_restore_presets">Reset presets library</string>
+    <string name="equalizer_title">Equalizer</string>
+
+    <!-- error -->
+    <string name="error_cannot_load_file">Unable to load and play the file</string>
+    <string name="error_file_corrupted" formatted="false">Warning! The %s file was corrupted</string>
+    <string name="error_no_playing_file">Nothing is playing for now</string>
+    <string name="error_nothing_to_play">Nothing to play</string>
+    <string name="error_playlist_empty">Playlist is empty. You should manually add files to it.</string>
+    <string name="error_skin_unexpected" formatted="false">Skin was produced an unexpected error (%s)! Default skin will be applied.</string>
+    <string name="error_skin_unsupported">Custom skin that you have selected has unsupported version! Default skin will be applied.</string>
+
+    <!-- fileinfo -->
+    <string name="fileinfo_album">Album:</string>
+    <string name="fileinfo_artist">Artist:</string>
+    <string name="fileinfo_caption">Information about the file</string>
+    <string name="fileinfo_duration">Duration:</string>
+    <string name="fileinfo_format">Format:</string>
+    <string name="fileinfo_genre">Genre:</string>
+    <string name="fileinfo_quality">Quality:</string>
+    <string name="fileinfo_size">Size:</string>
+    <string name="fileinfo_tab_basic">Basic</string>
+    <string name="fileinfo_tab_lyrics">Lyrics</string>
+    <string name="fileinfo_title">Title:</string>
+    <string name="fileinfo_year">Year:</string>
+
+    <!-- filelist -->
+    <string name="filelist_alertdialog_choose_sd_title">SD Cards</string>
+    <string name="filelist_alertdialog_filedelete_message" formatted="false">Do you want to remove file \"%s\" physically?</string>
+    <string name="filelist_alertdialog_filedelete_message_multiple" formatted="false">
+Do you want to remove following files physically?\n
+%s
+</string>
+    <string name="filelist_alertdialog_filedelete_title">Removing</string>
+
+    <!-- loading -->
+    <string name="loading_file">Loading file …</string>
+    <string name="loading_file_progress" formatted="false">Buffering file (%d%% ready)…</string>
+    <string name="loading_files">Loading files…</string>
+    <string name="loading_tags">Loading tags…</string>
+
+    <!-- lock -->
+    <string name="lock_screen_slide_up_to_unlock">Slide up to unlock</string>
+
+    <!-- player -->
+    <string name="player_jump_to_time">Jump to time</string>
+    <string name="player_menu_about">About</string>
+    <string name="player_menu_bookmarks">Bookmarks</string>
+    <string name="player_menu_dspmanager">Sound Effects</string>
+    <string name="player_menu_exit">Exit</string>
+    <string name="player_menu_home">Home</string>
+    <string name="player_menu_playlist">Playlist</string>
+    <string name="player_menu_queue">Queue</string>
+    <string name="player_menu_settings">Settings</string>
+    <string name="player_menu_sleepTimer">Sleep Timer</string>
+
+    <!-- playlist -->
+    <string name="playlist_clear_confirmation">Do you want to clear the playlist?</string>
+    <string name="playlist_contextmenu_add">Add Files…</string>
+    <string name="playlist_contextmenu_add_selected_to_queue">Add to queue</string>
+    <string name="playlist_contextmenu_add_to_bookmarks">Add to bookmarks</string>
+    <string name="playlist_contextmenu_add_to_favorites">Add to \"Favorites\"</string>
+    <string name="playlist_contextmenu_clear_queue">Clear queue</string>
+    <string name="playlist_contextmenu_delete">Remove from playlist</string>
+    <string name="playlist_contextmenu_delete_file">Remove file from disk</string>
+    <string name="playlist_contextmenu_insert_to_queue_beginning">Add to queue beginning</string>
+    <string name="playlist_contextmenu_play">Play</string>
+    <string name="playlist_contextmenu_queue">Queue…</string>
+    <string name="playlist_contextmenu_queue_manager">Queue manager</string>
+    <string name="playlist_contextmenu_remove_selected_from_queue">Remove from queue</string>
+    <string name="playlist_contextmenu_send_to_playlist">Send to playlist…</string>
+    <string name="playlist_contextmenu_send_to_playlist_new">Create new…</string>
+    <string name="playlist_contextmenu_set_ringtone">Set as ringtone</string>
+    <string name="playlist_contextmenu_share_track">Share track…</string>
+    <string name="playlist_contextmenu_show_file_info">File info</string>
+    <string name="playlist_contextmenu_title_ms">Multiple Files</string>
+    <string name="playlist_default_caption">Default</string>
+    <string name="playlist_delete_mode_caption">Batch remove mode</string>
+    <string name="playlist_error_cannot_delete_default_playlist">You cannot remove default playlist.</string>
+    <string name="playlist_error_deleting_file">Error while removing the file</string>
+    <string name="playlist_favorites_caption">Favorites</string>
+    <string name="playlist_manager_contextmenu_delete">Remove</string>
+    <string name="playlist_manager_contextmenu_play">Play</string>
+    <string name="playlist_manager_contextmenu_rename">Rename</string>
+    <string name="playlist_manager_delete_alert_message" formatted="false">Do you want to remove playlist \"%s\"?</string>
+    <string name="playlist_manager_delete_alert_title">Removing</string>
+    <string name="playlist_manager_dialog_subtitle">Playlist name:</string>
+    <string name="playlist_manager_menu_close">Close</string>
+    <string name="playlist_manager_menu_create_playlist">Create playlist</string>
+    <string name="playlist_menu_addurl">Add URL…</string>
+    <string name="playlist_menu_addurl_hint">Enter the URL (http://, ftp:// are supported):</string>
+    <string name="playlist_menu_clear">Clear playlist</string>
+    <string name="playlist_menu_group">Group by…</string>
+    <string name="playlist_menu_group_mode_album">Album</string>
+    <string name="playlist_menu_group_mode_artist">Artist</string>
+    <string name="playlist_menu_group_mode_folder">Folder</string>
+    <string name="playlist_menu_group_mode_genre">Genre</string>
+    <string name="playlist_menu_group_mode_none">None</string>
+    <string name="playlist_menu_group_mode_year">Year</string>
+    <string name="playlist_menu_load">Import playlist…</string>
+    <string name="playlist_menu_save">Export playlist…</string>
+    <string name="playlist_menu_scansd">Add all audio files from SD</string>
+    <string name="playlist_menu_sort">Sort by…</string>
+    <string name="playlist_menu_sort_by_addition_time">Date of addition to playlist</string>
+    <string name="playlist_menu_sort_by_album">Album</string>
+    <string name="playlist_menu_sort_by_artist">Artist</string>
+    <string name="playlist_menu_sort_by_date">Year</string>
+    <string name="playlist_menu_sort_by_display_text">Displayed text</string>
+    <string name="playlist_menu_sort_by_duration">Duration</string>
+    <string name="playlist_menu_sort_by_file_size">File size</string>
+    <string name="playlist_menu_sort_by_filename">File name</string>
+    <string name="playlist_menu_sort_by_folder">Folder</string>
+    <string name="playlist_menu_sort_by_genre">Genre</string>
+    <string name="playlist_menu_sort_by_last_modified">Last modified date</string>
+    <string name="playlist_menu_sort_by_title">Title</string>
+    <string name="playlist_menu_sort_by_track_number">Track No</string>
+    <string name="playlist_menu_sort_invert">Invert</string>
+    <string name="playlist_menu_sort_random">Shuffle</string>
+    <string name="playlist_multiselect_mode_caption">Multiple select mode</string>
+    <string name="playlist_search_mode_caption" formatted="false">Search: %s</string>
+    <string name="playlist_searchdialog_message">Enter part of title</string>
+    <string name="playlist_searchdialog_title">Search</string>
+    <string name="playlist_sort_mode_caption">Sort mode</string>
+    <string name="playlist_trackinfo" formatted="false">%d / %s / %d MB</string>
+
+    <!-- queue -->
+    <string name="queue_subtitle">User queue managing</string>
+    <string name="queue_title">Queue manager</string>
+
+    <!-- save -->
+    <string name="save_playlist_alert_overwrite_message" formatted="false">File \"%s\" exists. Overwrite?</string>
+    <string name="save_playlist_alert_overwrite_title">Warning</string>
+    <string name="save_playlist_default_filename">Playlist</string>
+    <string name="save_playlist_error_message_saving" formatted="false">Error occurred while saving %s</string>
+    <string name="save_playlist_folder_label" formatted="false">Save current playlist to folder %s with name:</string>
+    <string name="save_playlist_format_label">Playlist format:</string>
+    <string name="save_playlist_format_warning">Warning! CUE-tracks can not be saved in M3U8 format.</string>
+    <string name="save_playlist_subtitle" formatted="false">as \"%s\"</string>
+    <string name="save_playlist_success_saving_message">Successful saving</string>
+    <string name="save_playlist_title">Save playlist</string>
+
+    <!-- scanning -->
+    <string name="scanning_sd">Scanning SD…</string>
+
+    <!-- settings -->
+    <string name="settings_audio_decrease_volume_on_short_lose_focus">Reduce volume</string>
+    <string name="settings_audio_decrease_volume_on_short_lose_focus_summary">
+Temporary reduce playback volume on short audio focus change (notifications, navigation and etc).\n
+Note that feature may be implemented on firmware level, in this case you cannot switch off it.
+</string>
+    <string name="settings_audio_focus">Audio Focus</string>
+    <string name="settings_audio_focus_permanent">Permanent focus change</string>
+    <string name="settings_audio_focus_permanent_pause">Pause playback</string>
+    <string name="settings_audio_focus_permanent_pause_summary">Temporary pause the playback on permanent audio focus change (video players, games and etc)</string>
+    <string name="settings_audio_focus_short">Short focus change</string>
+    <string name="settings_audio_focus_short_pause">Pause playback</string>
+    <string name="settings_audio_focus_short_pause_summary">Temporary pause the playback on short audio focus change (notifications, navigation and etc)</string>
+    <string name="settings_audio_focus_summary">Behavior settings on change the audio focus</string>
+    <string name="settings_common_misc">Miscellaneous</string>
+    <string name="settings_common_off">No</string>
+    <string name="settings_common_on">Yes</string>
+    <string name="settings_controls_title">Controls</string>
+    <string name="settings_crossfade">Crossfade length, msec</string>
+    <string name="settings_fade">Fade volume at track beginning/ending</string>
+    <string name="settings_fade_on_pause">Fade on Play\Pause</string>
+    <string name="settings_fading_description">Volume fading, cross fading, pause between tracks</string>
+    <string name="settings_fading_group_auto">Automatic track switching</string>
+    <string name="settings_fading_group_manual">Manual track switching</string>
+    <string name="settings_fading_title">Mixing Settings</string>
+    <string name="settings_filelist_title">Files Adding Dialog</string>
+    <string name="settings_headset_actions_add_bookmark">Add to bookmarks</string>
+    <string name="settings_headset_actions_add_to_favorites">Add to favourites</string>
+    <string name="settings_headset_actions_next_playlist">Next playlist</string>
+    <string name="settings_headset_actions_next_track">Next track</string>
+    <string name="settings_headset_actions_no">(none)</string>
+    <string name="settings_headset_actions_play_pause">Play / Pause</string>
+    <string name="settings_headset_actions_prev_playlist">Previous playlist</string>
+    <string name="settings_headset_actions_prev_track">Previous track</string>
+    <string name="settings_headset_actions_rewind_backward">Rewind backward</string>
+    <string name="settings_headset_actions_rewind_forward">Rewind forward</string>
+    <string name="settings_headset_actions_start_from_beginning">Start from beginning</string>
+    <string name="settings_headset_double_click">Action on double click</string>
+    <string name="settings_headset_hold">Action on hold</string>
+    <string name="settings_headset_single_click">Action on single click</string>
+    <string name="settings_headset_title">Headset</string>
+    <string name="settings_headset_triple_click">Action on triple click</string>
+    <string name="settings_integration_show_albumart_on_lockscreen">Show Album Art on Lockscreen</string>
+    <string name="settings_integration_summary">Changes will take effect when you start next file</string>
+    <string name="settings_integration_title">Integration</string>
+    <string name="settings_interface_album_cover">Album Arts</string>
+    <string name="settings_interface_album_cover_load_from_file_folder">Find in file folder</string>
+    <string name="settings_interface_album_cover_load_from_internet">Find in Internet</string>
+    <string name="settings_interface_album_cover_load_from_internet_max_size">Max size to download</string>
+    <string name="settings_interface_album_cover_load_from_tags">Find in tags</string>
+    <string name="settings_interface_album_cover_loading_title">Album Art Search</string>
+    <string name="settings_interface_color_scheme">Color Scheme</string>
+    <string name="settings_interface_color_scheme_default">Default</string>
+    <string name="settings_interface_hue">Hue</string>
+    <string name="settings_interface_language_default">System defaults</string>
+    <string name="settings_interface_language_title">Language</string>
+    <string name="settings_interface_notification_kind">Kind</string>
+    <string name="settings_interface_notification_kind_aimp">AIMP</string>
+    <string name="settings_interface_notification_kind_aimp_compact">AIMP (Compact)</string>
+    <string name="settings_interface_notification_kind_system">System</string>
+    <string name="settings_interface_notification_style">Color Scheme</string>
+    <string name="settings_interface_notification_style_auto">Auto</string>
+    <string name="settings_interface_notification_style_dark">Dark Colors</string>
+    <string name="settings_interface_notification_style_light">Light Colors</string>
+    <string name="settings_interface_notification_style_skin">Skin Based</string>
+    <string name="settings_interface_notifications">Notifications</string>
+    <string name="settings_interface_orientation_auto">Auto</string>
+    <string name="settings_interface_orientation_landscape">Landscape</string>
+    <string name="settings_interface_orientation_portrait">Portrait</string>
+    <string name="settings_interface_orientation_title">Orientation</string>
+    <string name="settings_interface_scaling_title">Scaling</string>
+    <string name="settings_interface_skin_bliss">Bliss</string>
+    <string name="settings_interface_skin_custom">Custom…</string>
+    <string name="settings_interface_skin_download">Download More…</string>
+    <string name="settings_interface_skin_title">Skin</string>
+    <string name="settings_interface_title">Interface</string>
+    <string name="settings_jump_back_on_start_after_long_pause">Jump back on start after long pause</string>
+    <string name="settings_jump_back_on_start_after_long_pause_details">Jump 5 seconds back on start if playback is paused for more than 15 seconds</string>
+    <string name="settings_jump_to_beginning_on_prev_track">Jump to beginning on previous track click</string>
+    <string name="settings_jump_to_beginning_on_prev_track_details">Click on the \"previous track\" button will jump to beginning of playing track. Double click will jump to previous track.</string>
+    <string name="settings_jump_to_next_track_automatically">Jump to next track automatically</string>
+    <string name="settings_lock_screen_background_dim">Background Dim</string>
+    <string name="settings_lock_screen_background_dim_hint" formatted="false">Dim background by 60%</string>
+    <string name="settings_lock_screen_enable">Enable Lock Screen</string>
+    <string name="settings_lock_screen_enable_hint">Poweramp will display its lock screen if music is playing</string>
+    <string name="settings_lock_screen_hide_status_bar">Hide Status Bar</string>
+    <string name="settings_lock_screen_hide_status_bar_hint">Status bar will be hidden</string>
+    <string name="settings_lock_screen_landscape_layout">Landscape layout</string>
+    <string name="settings_lock_screen_landscape_layout_hint">Enable rotation to landscape layout</string>
+    <string name="settings_lock_screen_show_album_art">Show Album Art</string>
+    <string name="settings_lock_screen_show_date_time">Show Date/Time</string>
+    <string name="settings_lock_screen_show_repeat_shuffle">Show Repeat/Shuffle</string>
+    <string name="settings_lock_screen_show_seek_bar">Show Seek Bar</string>
+    <string name="settings_lock_screen_slide_to_unlock">Slide To Unlock</string>
+    <string name="settings_lock_screen_slide_to_unlock_hint">If enabled, slide is required to unlock, otherwise just press on unlock button is enough</string>
+    <string name="settings_lock_screen_title">Lock Screen</string>
+    <string name="settings_network_title">Network</string>
+    <string name="settings_pause_at_beginning_of_next_track">And pause the playback</string>
+    <string name="settings_play_when_headset_plugged_in_title">Play when headset plugged in</string>
+    <string name="settings_playback_behavior">Behavior</string>
+    <string name="settings_playback_bookmarks">Bookmarks</string>
+    <string name="settings_playback_force16bit">Force to 16-bits output</string>
+    <string name="settings_playback_high_priority">High CPU priority</string>
+    <string name="settings_playback_high_priority_summary">Solves playback issues while playing in background. Increases battery consumption</string>
+    <string name="settings_playback_mix_to_mono">Mix to mono</string>
+    <string name="settings_playback_navigation">Navigation</string>
+    <string name="settings_playback_output">Output</string>
+    <string name="settings_playback_output_method">Output Method</string>
+    <string name="settings_playback_output_summary">Output device settings</string>
+    <string name="settings_playback_pause_title">Pause between tracks, msec</string>
+    <string name="settings_playback_samplerate">Sample Rate</string>
+    <string name="settings_playback_savestate_title">On program startup</string>
+    <string name="settings_playback_title">Playback</string>
+    <string name="settings_playlist_absolute_numeration">Absolute numeration</string>
+    <string name="settings_playlist_formatting_line_custom">Custom…</string>
+    <string name="settings_playlist_formatting_line1">Line 1 format</string>
+    <string name="settings_playlist_formatting_line2">Line 2 format</string>
+    <string name="settings_playlist_mergegroups">Sort when grouping</string>
+    <string name="settings_playlist_mergegroups_summary">Sort playlist after grouping to merge similar groups</string>
+    <string name="settings_playlist_show_numbers">Show Numbers</string>
+    <string name="settings_playlist_sort_playlist_list">Sort playlists list</string>
+    <string name="settings_playlist_sort_playlist_list_summary">Sort playlists list automatically by their names</string>
+    <string name="settings_playlist_title">Playlist</string>
+    <string name="settings_preload_tracks">Pre-load next track</string>
+    <string name="settings_preload_tracks_description">Loads next track into memory while current track is playing. Reduces pauses between tracks, but requires more memory.</string>
+    <string name="settings_proxy">Proxy Settings</string>
+    <string name="settings_proxy_summary">In the form of \"server:port\" or \"user:pass@server:port\"</string>
+    <string name="settings_reconnect_to_stream_automatically">Reconnect to radio stream automatically</string>
+    <string name="settings_reconnect_to_stream_automatically_hint">Player will try to restore connection to radio stream if it is lost. To abort the reconnect operation hold the pause button on main screen</string>
+    <string name="settings_replay_gain">Replay Gain</string>
+    <string name="settings_replay_gain_analyze">Use On-the-fly analysis</string>
+    <string name="settings_replay_gain_analyze_title">On-the-fly analysis</string>
+    <string name="settings_replay_gain_default">Default value</string>
+    <string name="settings_replay_gain_preamp_calculated">Preamp for on-the-fly analysis</string>
+    <string name="settings_replay_gain_preamp_predefined">Preamp for values from tags</string>
+    <string name="settings_replay_gain_source">Source</string>
+    <string name="settings_replay_gain_source_album">Album</string>
+    <string name="settings_replay_gain_source_track">Track</string>
+    <string name="settings_replay_gain_summary">Use Replay Gain for volume normalization</string>
+    <string name="settings_replay_gain_tags">Use values from tags</string>
+    <string name="settings_replay_gain_tags_title">Values from tags</string>
+    <string name="settings_save_state_do_nothing">Do nothing</string>
+    <string name="settings_save_state_resume_player_state">Resume player state</string>
+    <string name="settings_save_state_start_playback">Start playback</string>
+    <string name="settings_show_hidden_folders">Show Hidden Folders</string>
+    <string name="settings_show_hidden_folders_summary">Allows to display folders in the list that names starts from dot or contain a .nomedia file</string>
+    <string name="settings_sound_engine_title">Sound</string>
+    <string name="settings_tags_default_codepage">Default code page for ANSI-tags</string>
+    <string name="settings_use_autobookmarks">Auto Bookmarks</string>
+    <string name="settings_use_autobookmarks_details">Player will restore playback position for each playlist</string>
+    <string name="settings_use_volume_buttons_for_navigation">Double click switches the tracks</string>
+    <string name="settings_useragent">User Agent:</string>
+    <string name="settings_volume_buttons_title">Volume Buttons</string>
+    <string name="settings_when_playlist_ends_goto_next">go to next playlist</string>
+    <string name="settings_when_playlist_ends_stay_at_current">stay at current playlist</string>
+    <string name="settings_when_playlist_ends_title">When playlist ends</string>
+
+    <!-- shortcut -->
+    <string name="shortcut_action_start_playback">Start playing</string>
+    <string name="shortcut_removed">Removed</string>
+
+    <!-- sleepTimer -->
+    <string name="sleepTimer_action">Suspend playback:</string>
+    <string name="sleepTimer_description">Sleep with your favourite music</string>
+    <string name="sleepTimer_event_at_chosen_time">at chosen time</string>
+    <string name="sleepTimer_event_at_chosen_time_formatted" formatted="false">at %d:%02d</string>
+    <string name="sleepTimer_event_at_elapsed_time">at elapsed time</string>
+    <string name="sleepTimer_event_at_elapsed_time_formatted" formatted="false">in %d:%02d</string>
+    <string name="sleepTimer_event_at_end_of_current_track">at end of current track</string>
+    <string name="sleepTimer_event_at_end_of_n_tracks" formatted="false">at end of %d tracks</string>
+    <string name="sleepTimer_event_at_end_of_playlist">at end of playlist</string>
+    <string name="sleepTimer_event_at_end_of_track">at end of track</string>
+    <string name="sleepTimer_fadeout_volume">Fade out volume</string>
+    <string name="sleepTimer_notification" formatted="false">Sleep timer will work after %d:%02d, shake the device to cancel the action</string>
+    <string name="sleepTimer_picker_tracks_title">Number of tracks to play</string>
+    <string name="sleepTimer_status_after_playlist">Playback will be paused at end of playlist</string>
+    <string name="sleepTimer_status_after_time" formatted="false">Playback will be paused after %d:%02d:%02d</string>
+    <string name="sleepTimer_status_after_tracks" formatted="false">Playback will be paused after playing of %d tracks</string>
+    <string name="sleepTimer_title">Sleep Timer</string>
+
+    <!-- value -->
+    <string name="value_copied_to_clipboard">Value has been copied to clipboard</string>
+
+    <!-- widget -->
+    <string name="widget_btn_exit">Exit</string>
+    <string name="widget_btn_next">Next track</string>
+    <string name="widget_btn_play">Play/Pause</string>
+    <string name="widget_btn_prev">Previous track</string>
+    <string name="widget_cover">Cover</string>
+
+    <!-- widgetcfg -->
+    <string name="widgetcfg_backgroundColor">Background Color:</string>
+    <string name="widgetcfg_launch_configurator_hint">Click the widget title bar to launch the configurator</string>
+    <string name="widgetcfg_ok">OK</string>
+    <string name="widgetcfg_primaryColor">Primary Color:</string>
+    <string name="widgetcfg_secondaryColor">Secondary Color:</string>
+</resources>
